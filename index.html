@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Game Scorekeeper</h1>
+        <div class="container">
+            <div class="column">
+                <h3>Player 1</h3>
+                <h2 class="score1"; id="score1">0</h2>
+                    <div>
+                        <button onclick="player1Add1()">+1</button>
+                        <button onclick="player1Add2()">+2</button>
+                        <button onclick="player1Add3()">+3</button>
+                    </div>
+            </div>
+            <div>
+                <h3 class="column">Player 2</h3>
+                <h2 class="score2"; id="score2">0</h2>
+                    <div>
+                        <button onclick="player2Add1()">+1</button>
+                        <button onclick="player2Add2()">+2</button>
+                        <button onclick="player2Add3()">+3</button>
+                    </div>
+            </div>
+            <div>
+                <h3 class="column">Player 3</h3>
+                <h2 class="score3"; id="score3">0</h2>
+                    <div>
+                        <button onclick="player3Add1()">+1</button>
+                        <button onclick="player3Add2()">+2</button>
+                        <button onclick="player3Add3()">+3</button>
+                    </div>
+            </div>
+        </div>
+        <div class="container2">
+            <button onclick="resetScores()">Reset Scores</button>
+            <button onclick="saveScores()">Save Scores</button>
+        </div>
+        <div>
+            <h2>Saved Scores</h2>
+            <div class="container">
+                <h4>Player 1 Scores</h4>
+                <h4>Player 2 Scores</h4>
+                <h4>Player 3 Scores</h4>
+            </div>
+            <div class="container">
+                <h4 id="player1SavedScores"></h4>
+                <h4 id="player2SavedScores"></h4>
+                <h4 id="player3SavedScores"></h4>
+            </div>
+        <script src="index.js"></script>
+        </div>
+    </body>
+</html>
