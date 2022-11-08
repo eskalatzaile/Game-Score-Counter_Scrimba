@@ -71,3 +71,10 @@ let count3 = 0
         player3SavedScores.textContent += count3Str
         
     }
+
+//Reset Save
+    function resetSaveScores(){
+        player1SavedScores.textContent = ""
+        player2SavedScores.textContent = ""
+        player3SavedScores.textContent = ""
+    }
