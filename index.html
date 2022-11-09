@@ -6,8 +6,8 @@
     <body>
         <h1>Game Scorekeeper</h1>
         <div class="container">
-            <div class="column">
-                <h3>Player 1</h3>
+            <div>
+                <h2>Player 1</h2>
                 <h2 class="score1"; id="score1">0</h2>
                     <div>
                         <button onclick="player1Add1()">+1</button>
@@ -16,7 +16,7 @@
                     </div>
             </div>
             <div>
-                <h3 class="column">Player 2</h3>
+                <h2>Player 2</h2>
                 <h2 class="score2"; id="score2">0</h2>
                     <div>
                         <button onclick="player2Add1()">+1</button>
@@ -25,7 +25,7 @@
                     </div>
             </div>
             <div>
-                <h3 class="column">Player 3</h3>
+                <h2>Player 3</h2>
                 <h2 class="score3"; id="score3">0</h2>
                     <div>
                         <button onclick="player3Add1()">+1</button>
@@ -39,19 +39,21 @@
             <button onclick="saveScores()">Save Scores</button>
             <button onclick="resetSaveScores()">Reset Save</button>
         </div>
-        <div>
-            <h2>Saved Scores</h2>
-            <div class="container3">
-                <h4>Player 1 Scores</h4>
-                <h4>Player 2 Scores</h4>
-                <h4>Player 3 Scores</h4>
+        <div class="container4">
+            <div>
+                <h2 class="container">Saved Scores</h2>
+                <div class="container3">
+                    <h4>Player 1 Scores</h4>
+                    <h4>Player 2 Scores</h4>
+                    <h4>Player 3 Scores</h4>
+                </div>
+                <div class="container3">
+                    <h4 id="player1SavedScores"></h4>
+                    <h4 id="player2SavedScores"></h4>
+                    <h4 id="player3SavedScores"></h4>
+                </div>
             </div>
-            <div class="container4">
-                <h4 id="player1SavedScores"></h4>
-                <h4 id="player2SavedScores"></h4>
-                <h4 id="player3SavedScores"></h4>
-            </div>
-        <script src="index.js"></script>
         </div>
+    <script src="index.js"></script>
     </body>
 </html>
