@@ -1,51 +1,90 @@
 body {
     margin: 0;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-image: url(mountain.jpeg);
+    padding-top: 20px;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
-    background: rgba(255, 255, 255, 0.295); 
-    border-radius: 20 px;
+    background: #ffffffa9; 
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 .container2 {
     display: auto;
     justify-content: space-around;
     background: rgba(255, 255, 255, 0.295); 
-    border-radius: 20 px;
-    padding-top: 500 px;
-    padding-bottom: 500 px; 
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
 }
+.container3 {
+    display: flex;
+    justify-content: space-around;
+    background: #ffffffc0; 
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.container4 {
+    display: flex;
+    justify-content: space-around;
+    background: #ffffffa9; 
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+
 .score1 {
-background: #0a0001;
-font:  100 px;
-color: #7ba0f1; 
-width: 120 px; 
-height: 100 px; 
-margin: 100 px
+    background: #250050ab;
+    font-size: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: medium;
+    text-align: center;
+    color: #7ba0f1; 
+    width: 120px; 
+    height: 100px; 
+    margin: 10px;
+    border-radius: 8px;
 }
 
 .score2 {
-background: #0a0001;
-font-size:  100 px;
-color: #87ee5e; 
-width: 120 px; 
-height: 100 px; 
-margin: 100 px
+    background: #003624af;
+    text-align: center;
+    font-size: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: medium;
+    color: #87ee5e; 
+    width: 120px; 
+    height: 100px; 
+    margin: 10px;
+    border-radius: 8px;
 }
 
 .score3 {
-background: #0a0001;
-font-size:  100 px;
-color: #f54e4e; 
-width: 120 px; 
-height: 100 px; 
-margin: 100 px
+    background: #570016af;
+    font-size: 85px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: medium;
+    text-align: center;
+    color: #f54e4e; 
+    width: 120px; 
+    height: 100px; 
+    margin: 10px;
+    border-radius: 8px;
 }
 
 button {
-    background: none
+    background: rgba(255, 255, 255, 0.432);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    justify-content: space-around; 
+    border: none; 
+    padding: 8px;
+    border-radius: 6px;
 }
